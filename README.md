@@ -10,7 +10,6 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 | calling functions | `myfunction()` | `myFunction()`| |
 | conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| | |
 | inline conditional | `value_when_true if condition else value_when_false`| `{ condition? 'true':'false'}`| |
-| safe navigation operator | not yet| `obj.value?.property`| `account&.username&.address`|
-
-| |
+| [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)
+| not yet| `obj.value?.property`| `account&.username&.address`|| |
 
