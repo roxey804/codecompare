@@ -12,3 +12,23 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 | inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|
 | [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)| [not yet](https://en.wikipedia.org/wiki/Safe_navigation_operator#Python)| `obj.value?.property`|`account&.username&.address`|| |
 
+# Language specific syntax
+
+## [Ruby](https://repl.it/join/sspejxsy-roxey804)
+
+```ruby
+s = "ruby syntax highlighting"
+print "s"
+end
+```
+### Symbols ( : )
+* Symbols are denoted by a colon (**:**) and are identifiers (fixed values) unlike strings
+* Unlike strings which are meant to be mutable, symbols are aa separate, *immutable* data type
+* can be used for method names or attribute names
+By immutable I mean that every symbol is unique, and it can’t be changed:
+
+
+
+### Hashes
+* Hashes are as objects in JS
+
