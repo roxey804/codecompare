@@ -5,7 +5,7 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 
  Operation | Python | JS (ES6) | Ruby
 |---|---|---|---|
-| print | `print("Hello world!")` | `alert('Hello World!')` | print "Hello world!"|
+| print | `print("Hello world!")` | `alert('Hello World!')` | `print "Hello world!"`|
 | functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| `def myfunction()`<br>&nbsp;&nbsp;&nbsp;`print "running"`<br>`end` |
 | calling functions | `myfunction()` | `myFunction()`| `myfunction()` |
 | conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| `if (condition) {`<br>&nbsp;&nbsp;&nbsp; `statement }` <br>&nbsp;&nbsp;&nbsp;`else {` <br>`statement }` | `if condition`<br>&nbsp;&nbsp;&nbsp;`return true`<br>`else`<br>&nbsp;&nbsp;&nbsp;`return false`<br>`end`|
@@ -17,16 +17,19 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 ## [Ruby](https://repl.it/join/sspejxsy-roxey804)
 
 ```ruby
-s = "ruby syntax highlighting"
-print "s"
-end
+text = "ruby syntax highlighting"
+print text
 ```
-### Symbols ( : )
-* Symbols are denoted by a colon (**:**) and are identifiers (fixed values) unlike strings
-* Unlike strings which are meant to be mutable, symbols are aa separate, *immutable* data type
-* can be used for method names or attribute names
-By immutable I mean that every symbol is unique, and it can’t be changed:
+### [Symbols](https://www.youtube.com/watch?v=VytEw_DDcYI) ( : )
 
+* An *immutable* data type
+* Symbols are denoted by a colon (**:**) and are identifiers (fixed values) unlike strings which are meant to be mutable, 
+* Tend to be used for method names or attribute names
+```ruby
+my_symbol = :name
+my_symbol2 = :name
+```
+`my_symbol.object_id` and `my_symbol2.object_id` will be **the same**
 
 
 ### Hashes
