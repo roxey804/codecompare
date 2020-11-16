@@ -16,10 +16,6 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 
 ## [Ruby](https://repl.it/join/sspejxsy-roxey804)
 
-```ruby
-text = "ruby syntax highlighting"
-print text
-```
 ### [Symbols](https://www.youtube.com/watch?v=VytEw_DDcYI) ( : )
 
 * An *immutable* data type
@@ -31,7 +27,9 @@ my_symbol2 = :name
 ```
 `my_symbol.object_id` and `my_symbol2.object_id` will be **the same**
 
-
 ### Hashes
 * Hashes are as objects in JS
+
+### Unit tests - [RSpec](https://rspec.info/documentation/)
+
 
