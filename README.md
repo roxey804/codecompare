@@ -23,9 +23,10 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 
  X | Python - Django | React JS | Ruby on Rails
 |---|---|---|---|
-|Package manager|pip|node, yarn|RubyGems|
-|Library installation|pip install|node, yarn install|bundle install|
-|Library import|`import library`|`import library`|`require library`|
+|Package manager|pip|node, yarn|RubyGems => bundler|
+|Package config stored in:|`requirements.txt`|`package.json/yarn.lock`|`Gemfile.lock`|
+|Library installation|`pip install <lib>`|`npm/yarn install <package>`|`gem install <gem>`|
+|Library/package import|`import library`|`import library`|`require "package"`|
 
 
 
@@ -48,5 +49,17 @@ my_symbol2 = :name
 * Hashes are as objects in JS
 
 ### Unit tests - [RSpec](https://rspec.info/documentation/)
+
+```ruby
+describe "scenario name" do
+  it "test name" do
+    <test code here>
+    <expectation here>
+  end
+  
+  decribe "can create a new country" do
+   it "create country" do
+   
+```
 
 
