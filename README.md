@@ -5,7 +5,7 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 
  Operation | Python | JS (ES6) | Ruby
 |---|---|---|---|
-| print | `print("Hello world!")` | `alert('Hello World!')` | `print "Hello world!"`|
+| print | `print("Hello world!")` | `console.log('Hello World!')` | `print "Hello world!"`|
 | functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| `def myfunction()`<br>&nbsp;&nbsp;&nbsp;`print "running"`<br>`end` |
 | calling functions | `myfunction()` | `myFunction()`| `myfunction()` |
 | conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| `if (condition) {`<br>&nbsp;&nbsp;&nbsp; `statement }` <br>`else {` <br>&nbsp;&nbsp;&nbsp;`statement }` | `if condition`<br>&nbsp;&nbsp;&nbsp;`return true`<br>`else`<br>&nbsp;&nbsp;&nbsp;`return false`<br>`end`|
