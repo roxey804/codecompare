@@ -12,6 +12,22 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 | inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|
 | [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)| [not yet](https://en.wikipedia.org/wiki/Safe_navigation_operator#Python)| `obj.value?.property`|`account&.username&.address`|| |
 
+ X | Python | JS (ES6) | Ruby
+|---|---|---|---|
+|Web development frameworks|Flask, Django|React, Vue, Angular |Sinatra, Ruby on Rails|
+|Unit testing|Pytest, Unitttest|React testing library, Jest |RSpec, minitest|
+|Syntax linting|?|ESLint|Rubocop|
+|Frontend tests|Selenium|Cypress|Capybara, Cucumber|
+
+## Web development framework comparison
+ X | Python - Django | React JS | Ruby on Rails
+|---|---|---|---|
+|Package manager|pip|node, yarn|RubyGems|
+|Library installation|pip install|node, yarn install|bundle install|
+|Library import|`import library`|`import library`|`require library`|
+
+
+
 # Language specific syntax
 
 ## [Ruby](https://repl.it/join/sspejxsy-roxey804)
