@@ -12,6 +12,16 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 | inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|
 | [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)| [not yet](https://en.wikipedia.org/wiki/Safe_navigation_operator#Python)| `obj.value?.property`|`account&.username&.address`|| |
 
+## Other functions e.g. length
+
+ Function | Python | JS (ES6) | Ruby | Notes
+|---|---|---|---|---|
+| length | `len(var)` | `var.length` | | bla | 
+| user input | `input(str)` | `` | ``| |input is always a str by default for all 3
+| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
+
+
+
 ## Web development framework comparison
 
  X | Python | JS (ES6) | Ruby
