@@ -1,7 +1,8 @@
 # Code Compare
-Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 
+## Side-by-side syntax "comparisons" between 3 languages: Python (3), JavaScript(ES6) and Ruby
 
+> Note: not every data type of function has a direct comparison in the other language, sometimes these are approximate. 
 
  Operation | Python | JS (ES6) | Ruby
 |---|---|---|---|
@@ -12,7 +13,9 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 | inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|
 | [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)| [not yet](https://en.wikipedia.org/wiki/Safe_navigation_operator#Python)| `obj.value?.property`|`account&.username&.address`|| |
 
-## Other functions e.g. length
+## In-depth comparison
+
+### Other functions e.g. length
 
  Function | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
@@ -20,14 +23,23 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 | user input | `input(str)` | `` | ``| |input is always a str by default for all 3
 | advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
 
+### Conditionals
+
+ Function | Python | JS (ES6) | Ruby | Notes
+|---|---|---|---|---|
+| conditionals | `if, elif, else` | `if, elseif, else` |  | bla || 
+| inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|||
+| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
+
 ### Comparison (equal/not equal) and Boolean (and/or/not) operators
  Operator | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
+| Boolean | `bool(var)` | `var.length` | | bla | 
 | Equal to | `==` | `` | ``| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
 | Not equal to | `!=` | `` | ``| |
-| And | `and` | `` | ``| |
-| Or | `and` | `` | `unless?`| |
-| Not | `not` | `` | ``| |
+| And | `and` | `&&` | ``| |
+| Or | `or` | `||` | `unless?`| |
+| Not | `not` | `!` | ``| |
 
 
 
