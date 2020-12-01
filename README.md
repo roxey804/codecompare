@@ -15,14 +15,6 @@
 
 ## In-depth comparison
 
-### Other functions e.g. length
-
- Function | Python | JS (ES6) | Ruby | Notes
-|---|---|---|---|---|
-| length | `len(var)` | `var.length` | | bla | 
-| user input | `input(str)` | `` | ``| |input is always a str by default for all 3
-| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
-
 ### Conditionals
 
  Function | Python | JS (ES6) | Ruby | Notes
@@ -48,22 +40,18 @@
 | For | `bool(var)` | `var.length` | | bla | **For** loops iterate a **specific** no. of times
 | While | `bool(var)` | `var.length` | | bla | **While** loops iterate **while** a certain condn is true
 
+### Built-in functions e.g. length
 
-### 
+ Function | Python | JS (ES6) | Ruby | Notes
+|---|---|---|---|---|
+| length | `len(var)` | `var.length` | | bla | 
+| user input | `input(str)` | `` | ``| |input is always a str by default for all 3
+| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
+
+### TEMPLATE
  Operator | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
 | Boolean | `bool(var)` | `var.length` | | bla | 
-
-### Other useful in-built functions
-
-Function | Python | JS (ES6) | Ruby | Notes
-|---|---|---|---|---|
-| length | `len(var)` | `var.length` |  | bla || 
-| inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|||
-| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
-
-
-
 
 
 
@@ -73,7 +61,7 @@ Function | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|
 |Web development frameworks|Flask, Django|React, Vue, Angular |Sinatra, Ruby on Rails|
 |Unit testing|Pytest, Unitttest|React testing library, Jest |RSpec, minitest|
-|Syntax linting|?|ESLint|Rubocop|
+|Syntax linting|pylint|ESLint|Rubocop|
 |Frontend tests|Selenium|Cypress|Capybara, Cucumber|
 
  X | Python - Django | React JS | Ruby on Rails
@@ -118,6 +106,32 @@ print(total)
 ```
 </p>
 </details>
+
+**Q** write a for loop to count no.s from 4 to 99
+
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
+```python
+total = 0
+for i in range(4, 100):
+    total = total + i
+print(total)
+```
+</p>
+</details>
+
+### Functions from built-in modules e.g. random
+
+Remember all python functions have a **return value**, if no ```return``` statement, the return value defaults to a ```None``` type. 
+
+ Module | usage | example | notes
+|---|---|---|---|
+| random | `random.randint(var)` | `random.randint(1,10)` |generate random number between 1 and 10|
+| sys | `sys.exit()` | `sys.exit()` | This allows a script to terminate, anything below this code will **not** be ecxecuted
+| pyperclip | `pyperclip.paste()` | `pyperclip.copy(` | copy text from clipboard|
 
 
 ## [Ruby](https://repl.it/join/sspejxsy-roxey804)
