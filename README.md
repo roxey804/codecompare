@@ -20,11 +20,16 @@ Comparing syntax between various languages (Python 3, JavaScript(ES6) and Ruby)
 | user input | `input(str)` | `` | ``| |input is always a str by default for all 3
 | advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
 
-### Comparison operators
+### Comparison (equal/not equal) and Boolean (and/or/not) operators
  Operator | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
 | Equal to | `==` | `` | ``| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
 | Not equal to | `!=` | `` | ``| |
+| And | `and` | `` | ``| |
+| Or | `and` | `` | `unless?`| |
+| Not | `not` | `` | ``| |
+
+
 
 
 
