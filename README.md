@@ -35,12 +35,32 @@
  Operator | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
 | Boolean | `bool(var)` | `var.length` | | bla | 
+| Falsey | `0, 0.0, ''` |  | | bla | 
 | Equal to | `==` | `` | ``| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
 | Not equal to | `!=` | `` | ``| |
-| And | `and` | `&&` | ``| |
+| And | `and` | `&&` | | |
 | Or | `or` | `||` | `unless?`| |
-| Not | `not` | `!` | ``| |
+| Not | `not` | `!` | | |
 
+### Loops
+ Operator | Python | JS (ES6) | Ruby | Notes
+|---|---|---|---|---|
+| For | `bool(var)` | `var.length` | | bla | **For** loops iterate a **specific** no. of times
+| While | `bool(var)` | `var.length` | | bla | **While** loops iterate **while** a certain condn is true
+
+
+### 
+ Operator | Python | JS (ES6) | Ruby | Notes
+|---|---|---|---|---|
+| Boolean | `bool(var)` | `var.length` | | bla | 
+
+### Other useful in-built functions
+
+Function | Python | JS (ES6) | Ruby | Notes
+|---|---|---|---|---|
+| length | `len(var)` | `var.length` |  | bla || 
+| inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|||
+| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
 
 
 
@@ -66,6 +86,39 @@
 
 
 # Language specific syntax
+
+## Python
+
+```python
+for i in range(3):
+ print("Hello" + str(i))
+```
+**Q** how many times will a sentence be printed?
+
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+3 times, the first time the variable i is set to 0, then 1 and 2 NOT including 3. Total of 3 times - as range(<b>3</b>)
+</p>
+</details>
+
+**Q** write a for loop to count no.s from 1 to 100
+
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
+```python
+total = 0
+for i in range(101):
+    total = total + i
+print(total)
+```
+</p>
+</details>
+
 
 ## [Ruby](https://repl.it/join/sspejxsy-roxey804)
 
