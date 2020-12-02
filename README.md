@@ -47,14 +47,19 @@
  Function | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
 | length | `len(var)` | `var.length` | | bla | 
-| user input | `input()` | `` | `gets`| |input is always a str by default 
+| user input | `input()` | - | `gets`| |input is always a str by default 
 | Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
 
 
-### TEMPLATE
- Operator | Python | JS (ES6) | Ruby | Notes
+### Data structures
+ Data type | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
-| Boolean | `bool(var)` | `var.length` | | bla | 
+| String | |  | | bla | 
+| Integer | |  | | bla | 
+| Boolean |  |  | | bla | 
+| Mutable List | `[1,2,3]` |  | | bla | 
+| Unmutable list | tuple `(1,2,3)`|  | | bla | 
+| Key:value | Dictionary `{"key":"value"}`|  | | bla | 
 
 
 
@@ -162,6 +167,17 @@ Remember all python functions have a **return value**, if no ```return``` statem
 | random | `random.randint(var)` | `random.randint(1,10)` |generate random number between 1 and 10|
 | sys | `sys.exit()` | `sys.exit()` | This allows a script to terminate, anything below this code will **not** be ecxecuted
 | pyperclip | `pyperclip.paste()` | `pyperclip.copy(` | copy text from clipboard|
+
+# JavaScript [(ES6)](https://www.w3schools.com/react/react_es6.asp)
+
+### Defining variables
+New ```let, const``` keywords were introduced. Unlike ```let``` variables, ```const``` variables **cannot** be changed.
+
+```javascript
+let x = 2;
+const company = 'BT'
+```
+### Object destructuring
 
 
 ## [Ruby](https://repl.it/join/sspejxsy-roxey804)
