@@ -21,7 +21,7 @@
 |--|--|--|--|---|
 | Conditionals | `if, elif, else` | `if, elseif, else` | `if, elsif, else / unless, else` | - |
 | Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? if_true : else`||
-| Switch/case | - | - | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |input is always a str by default for all 3
+| Switch/case | - | - | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |-
 
 
 ### Comparison (equal/not equal) and Boolean (and/or/not) operators
@@ -33,7 +33,7 @@
 | Not equal to | `!=` | `!=/!==` | `!=`| |
 | And | `and` | `&&` | `&&`| |
 | Or | `or` | &#124;&#124;  |&#124;&#124;| |
-| Not | `not` | `!` |`! / unless?` |unless executees code if conditional is false.  |
+| Not | `not` | `!` |`! / unless?` |`unless` executes code if conditional is false.  |
 
 ### Loops
 
@@ -47,7 +47,7 @@
  Function | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
 | length | `len(var)` | `var.length` | | bla | 
-| user input | `input(str)` | `` | ``| |input is always a str by default for all 3
+| user input | `input()` | `` | `gets`| |input is always a str by default 
 | Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
 
 
