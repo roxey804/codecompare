@@ -5,7 +5,7 @@
 > Note: not every data type or function has a direct comparison in the other language, sometimes these are approximate. 
 
  Operation | Python | JS (ES6) | Ruby
-|---|---|---|---|
+|--|---|---|---|
 | print | `print("Hello world!")` | `console.log('Hello World!')` | `print "Hello world!" / puts "Hello world!"`|
 | functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| `def myfunction()`<br>&nbsp;&nbsp;&nbsp;`print "running"`<br>`end` |
 | calling functions | `my_function()` | `myFunction()`| `myfunction()` |
@@ -18,11 +18,11 @@
 ### Conditionals
 
  Function | Python | JS (ES6) | Ruby | Notes
-|---|---|---|---|---|
-| Conditionals | `if, elif, else` | `if, elseif, else` | `if, elsif, else / unless, else` | - || 
-| Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? if_true : else`|||
-| Switch/case | - | - | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement`| |input is always a str by default for all 3
-| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print`| |`puts` automatically adds a new line, otherwise use `print`
+|--|--|--|--|---|
+| Conditionals | `if, elif, else` | `if, elseif, else` | `if, elsif, else / unless, else` | - |
+| Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? if_true : else`||
+| Switch/case | - | - | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |input is always a str by default for all 3
+| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
 
 
 
