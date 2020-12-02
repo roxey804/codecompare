@@ -6,7 +6,7 @@
 
  Operation | Python | JS (ES6) | Ruby
 |---|---|---|---|
-| print | `print("Hello world!")` | `console.log('Hello World!')` | `print "Hello world!"`|
+| print | `print("Hello world!")` | `console.log('Hello World!')` | `print "Hello world!" / puts "Hello world!"`|
 | functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| `def myfunction()`<br>&nbsp;&nbsp;&nbsp;`print "running"`<br>`end` |
 | calling functions | `my_function()` | `myFunction()`| `myfunction()` |
 | conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| `if (condition) {`<br>&nbsp;&nbsp;&nbsp; `statement }` <br>`else {` <br>&nbsp;&nbsp;&nbsp;`statement }` | `if condition`<br>&nbsp;&nbsp;&nbsp;`return true`<br>`else`<br>&nbsp;&nbsp;&nbsp;`return false`<br>`end`|
@@ -19,20 +19,23 @@
 
  Function | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
-| conditionals | `if, elif, else` | `if, elseif, else` |  | bla || 
-| inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|||
-| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
+| Conditionals | `if, elif, else` | `if, elseif, else` | `if, elsif, else / unless, else` | - || 
+| Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? if_true : else`|||
+| Switch/case | - | - | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement`| |input is always a str by default for all 3
+| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print`| |`puts` automatically adds a new line, otherwise use `print`
+
+
 
 ### Comparison (equal/not equal) and Boolean (and/or/not) operators
  Operator | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
 | Boolean | `bool(var)` | `var.length` | | bla | 
-| Falsey | `0, 0.0, ''` |  | | bla | 
+| Falsey | `0, 0.0, ''` |  |`false, nil` | bla | 
 | Equal to | `==` | `` | ``| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
 | Not equal to | `!=` | `` | ``| |
-| And | `and` | `&&` | | |
-| Or | `or` | &#124;&#124;  | `unless?`| |
-| Not | `not` | `!` | | |
+| And | `and` | `&&` | `&`| |
+| Or | `or` | &#124;&#124;  |&#124;| |
+| Not | `not` | `!` |`unless?` |unless executees code if conditional is false.  |
 
 ### Loops
 
