@@ -31,11 +31,11 @@
 |---|---|---|---|---|
 | Boolean | `bool(var)` | `var.length` | | bla | 
 | Falsey | `0, 0.0, ''` |  |`false, nil` | bla | 
-| Equal to | `==` | `` | ``| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
-| Not equal to | `!=` | `` | ``| |
-| And | `and` | `&&` | `&`| |
-| Or | `or` | &#124;&#124;  |&#124;| |
-| Not | `not` | `!` |`unless?` |unless executees code if conditional is false.  |
+| Equal to | `==` | `==/===` | `==`| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
+| Not equal to | `!=` | `!=/!==` | `!=`| |
+| And | `and` | `&&` | `&&`| |
+| Or | `or` | &#124;&#124;  |&#124;&#124;| |
+| Not | `not` | `!` |`! / unless?` |unless executees code if conditional is false.  |
 
 ### Loops
 
