@@ -77,10 +77,34 @@
 
 ## Python
 
+**Q** In a python function without a return statement, what type does the return value default to?
+
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
 ```python
-for i in range(3):
- print("Hello" + str(i))
+NoneType
 ```
+ </p>
+</details>
+
+**Q** What are the (optionsa) kwargs for the print() function?
+
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
+```python
+print("a string", sep=, end=)
+sep='sthing to separate each str by', end="" <--no /n after each print() call```
+ 
+```
+</p>
+</details>
+
 **Q** how many times will a sentence be printed?
 
 <details>
