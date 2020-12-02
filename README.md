@@ -61,8 +61,6 @@
 | Unmutable list | tuple `(1,2,3)`|  | | bla | 
 | Key:value | Dictionary `{"key":"value"}`|  | | bla | 
 
-
-
 ## Web development framework comparison
 
  X | Python | JS (ES6) | Ruby
@@ -83,6 +81,43 @@
 # Language specific syntax
 
 ## Python
+
+### Scope
+Think of scope as a **container**
+
+_Local_ scope is _temporary_, created when a _function_ is called and _destroyed when the functiion returns_. 
+A _local_ variable _cannot_ be used in a **global** scope. 
+
+**Global** scopes are created **outside** a function 
+
+This allows functions to work as individual black boxes and helps isolate code.
+
+```python
+variable = 'GLOBAL'
+
+def my_function():
+    variable = 'local'
+```
+**Q** In the below, what value of name be printed out?
+```python
+def func_1():
+    name = 'Maria'
+    func_2()
+    print(name)
+    
+def func_2():
+    name = 'Bob'
+
+func_1()
+```
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
+Maria
+ </p>
+</details>
 
 **Q** In a python function without a return statement, what type does the return value default to?
 
