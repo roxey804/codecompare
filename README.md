@@ -19,9 +19,9 @@
 
  Function | Python | JS (ES6) | Ruby | Notes
 |--|--|--|--|---|
-| Conditionals | `if, elif, else` | `if, elseif, else` | `if, elsif, else / unless, else` | - |
+| Conditionals | `if, elif, else` | `if, else if, else` | `if, elsif, else / unless, else` | - |
 | Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? if_true : else`||
-| Switch/case | - | - | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |-
+| Switch/case | - | `switch` | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |-
 
 
 ### Comparison (equal/not equal) and Boolean (and/or/not) operators
