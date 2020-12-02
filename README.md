@@ -22,8 +22,6 @@
 | Conditionals | `if, elif, else` | `if, elseif, else` | `if, elsif, else / unless, else` | - |
 | Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? if_true : else`||
 | Switch/case | - | - | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |input is always a str by default for all 3
-| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
-
 
 
 ### Comparison (equal/not equal) and Boolean (and/or/not) operators
@@ -50,7 +48,8 @@
 |---|---|---|---|---|
 | length | `len(var)` | `var.length` | | bla | 
 | user input | `input(str)` | `` | ``| |input is always a str by default for all 3
-| advanced printing | f strings: `f"Hello, {var}"` | `` | ``| |input is always a str by default for all 3
+| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
+
 
 ### TEMPLATE
  Operator | Python | JS (ES6) | Ruby | Notes
@@ -73,7 +72,7 @@
 |Package manager|pip|node, yarn|RubyGems => bundler|
 |Package config stored in:|`requirements.txt`|`package.json/yarn.lock`|`Gemfile.lock`|
 |Library installation|`pip install <lib>`|`npm/yarn install <package>`|`gem install <gem>`|
-|Library/package import|`import library`|`import library`|`require "package"`|
+|Library/package import|`import library`|`import library / { Component } from`|`require "package"`|
 
 
 # Language specific syntax
