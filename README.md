@@ -2,7 +2,7 @@
 
 ## Side-by-side syntax "comparisons" between 3 languages: Python (3), JavaScript(ES6) and Ruby
 
-> Note: not every data type of function has a direct comparison in the other language, sometimes these are approximate. 
+> Note: not every data type or function has a direct comparison in the other language, sometimes these are approximate. 
 
  Operation | Python | JS (ES6) | Ruby
 |---|---|---|---|
@@ -31,14 +31,15 @@
 | Equal to | `==` | `` | ``| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
 | Not equal to | `!=` | `` | ``| |
 | And | `and` | `&&` | | |
-| Or | `or` | `||` | `unless?`| |
+| Or | `or` | &#124;&#124;  | `unless?`| |
 | Not | `not` | `!` | | |
 
 ### Loops
+
  Operator | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
-| For | `bool(var)` | `var.length` | | bla | **For** loops iterate a **specific** no. of times
-| While | `bool(var)` | `var.length` | | bla | **While** loops iterate **while** a certain condn is true
+| For | `for i in range(x)` | `-` |  bla | **For** loops iterate a **specific** no. of times
+| While | `while i < 3``while True` | `-` | bla | **While** loops iterate **while** a certain condn is true
 
 ### Built-in functions e.g. length
 
@@ -72,7 +73,6 @@
 |Library/package import|`import library`|`import library`|`require "package"`|
 
 
-
 # Language specific syntax
 
 ## Python
@@ -90,7 +90,7 @@ NoneType
  </p>
 </details>
 
-**Q** What are the (optionsa) kwargs for the print() function?
+**Q** What are the kwargs (optional args) for the print() function?
 
 <details>
 <summary>
@@ -98,24 +98,28 @@ NoneType
 </summary>
 
 ```python
-print("a string", sep=, end=)
 sep='sthing to separate each str by', end="" <--no /n after each print() call```
- 
+
+print("a string", sep=, end=)
 ```
 </p>
 </details>
 
-**Q** how many times will a sentence be printed?
+**Q** how many times will this sentence be printed? 
+```python
+for i in range(3):
+    print('hi')
+```
 
 <details>
 <summary>
  <b>Answer</b>
 </summary>
-3 times, the first time the variable i is set to 0, then 1 and 2 NOT including 3. Total of 3 times - as range(<b>3</b>)
+<b>3</b> times, the first time the variable i is set to 0, then 1 and 2 NOT including 3. Total of 3 times - as range(<b>3</b>)
 </p>
 </details>
 
-**Q** write a for loop to count no.s from 1 to 100
+**Q** Write a for loop to count the sum of all no.s from 1 to 100
 
 <details>
 <summary>
@@ -131,7 +135,7 @@ print(total)
 </p>
 </details>
 
-**Q** write a for loop to count no.s from 4 to 99
+**Q** Sum of all no.s from 4 to 99
 
 <details>
 <summary>
