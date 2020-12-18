@@ -82,10 +82,10 @@
 
 ## Python
 
-### Scope
+### [Scope](https://www.codequizzes.com/python/beginner-II/variable-scope)
 Think of scope as a **container**
 
-_Local_ scope is _temporary_, created when a _function_ is called and _destroyed when the functiion returns_. 
+_Local_ scope is _temporary_, created when a _function_ is called and _destroyed when the function returns_. 
 A _local_ variable _cannot_ be used in a **global** scope. 
 
 **Global** scopes are created **outside** a function 
@@ -98,7 +98,7 @@ variable = 'GLOBAL'
 def my_function():
     variable = 'local'
 ```
-**Q** In the below, what value of name be printed out?
+**Q** In the below, what value of name will be printed out?
 ```python
 def func_1():
     name = 'Maria'
@@ -115,7 +115,7 @@ func_1()
  <b>Answer</b>
 </summary>
 
-Maria
+Maria - as the scope of ```func_2``` will be destroyed once it returns
  </p>
 </details>
 
@@ -130,7 +130,27 @@ Maria
 NoneType
 ```
  </p>
+</details>  
+
+standard if/else blocks **keep** the existing scope and don't destroy them like a function.
+
+**Q** In the below, what value of numba will be printed out?
+```python
+number = 9
+
+if True:
+ number = 15
+
+print(number)
+```
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+ 15    - if/else statements do not convert code to local scope, they <b>mantain</b> the existing scope. 
+ </p>
 </details>
+
 
 **Q** What are the kwargs (optional args) for the print() function?
 
@@ -157,7 +177,7 @@ for i in range(3):
 <summary>
  <b>Answer</b>
 </summary>
-<b>3</b> times, the first time the variable i is set to 0, then 1 and 2 NOT including 3. Total of 3 times - as range(<b>3</b>)
+<b>3</b> times, the first time the variable i is set to 0, then 1 and 2 **not** including 3. Total of 3 times - as range(<b>3</b>)
 </p>
 </details>
 
