@@ -148,7 +148,7 @@ print(number)
  <b>Answer</b>
 </summary>
  if True means that the indented code underneath will <b>always</b> be executed,
- <b>15</>  - if/else statements do not convert code to local scope, they <b>mantain</b> the existing scope. 
+ <b>15</b>  - if/else statements do not convert code to local scope, they <b>mantain</b> the existing scope. 
  </p>
 </details>
 
