@@ -220,7 +220,27 @@ print(total)
 
 Remember all python functions have a **return value**, if no ```return``` statement, the return value defaults to a ```None``` type. 
 
- Module | usage | example | notes
+```python
+def myfunction(arg1, arg2=defaultvalue):
+    print("hi")
+myfunction(2,3)
+```
+**Q** What wil be the output of the below code snipped? #TODO
+
+```python
+def myfunction(arg1, arg2=99):
+    print(arg1,1rg2)
+myfunction(2,3)
+```
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
+</p>
+</details>
+
+Module | usage | example | notes
 |---|---|---|---|
 | random | `random.randint(var)` | `random.randint(1,10)` |generate random number between 1 and 10|
 | sys | `sys.exit()` | `sys.exit()` | This allows a script to terminate, anything below this code will **not** be ecxecuted
