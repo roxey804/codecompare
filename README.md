@@ -85,7 +85,7 @@
 ### [Scope](https://www.codequizzes.com/python/beginner-II/variable-scope)
 Think of scope as a **container**
 
-_Local_ scope is _temporary_, created when a _function_ is called and _destroyed when the function returns_. 
+_Local_ scope is _temporary_, created when a _function_ is called and _destroyed_ when the function _returns_. 
 A _local_ variable _cannot_ be used in a **global** scope. 
 
 **Global** scopes are created **outside** a function 
@@ -132,9 +132,9 @@ NoneType
  </p>
 </details>  
 
-standard if/else blocks **keep** the existing scope and don't destroy them like a function.
+Standard if/else blocks **keep** the existing scope and don't destroy them like a function.
 
-**Q** In the below, what value of numba will be printed out?
+**Q** In the below, what value of number will be printed out?
 ```python
 number = 9
 
@@ -147,7 +147,8 @@ print(number)
 <summary>
  <b>Answer</b>
 </summary>
- 15    - if/else statements do not convert code to local scope, they <b>mantain</b> the existing scope. 
+ if True means that the indented code underneath will <b>always</b> be executed,
+ <b>15</>  - if/else statements do not convert code to local scope, they <b>mantain</b> the existing scope. 
  </p>
 </details>
 
@@ -167,6 +168,8 @@ print("a string", sep=, end=)
 </p>
 </details>
 
+**For Loops** 
+
 **Q** how many times will this sentence be printed? 
 ```python
 for i in range(3):
@@ -177,7 +180,7 @@ for i in range(3):
 <summary>
  <b>Answer</b>
 </summary>
-<b>3</b> times, the first time the variable i is set to 0, then 1 and 2 **not** including 3. Total of 3 times - as range(<b>3</b>)
+<b>3</b> times, the first time the variable i is set to 0, then 1 and 2 <b>not</b> including 3. Total of 3 times - as range(<b>3</b>)
 </p>
 </details>
 
