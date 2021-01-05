@@ -119,6 +119,32 @@ Maria - as the scope of ```func_2``` will be destroyed once it returns
  </p>
 </details>
 
+The ```global``` keyword can be used to create [global](https://www.programiz.com/python-programming/global-keyword) variables in a local context (within a function)
+
+**Q** What will be the output if you run the below?
+```python
+result = 0 # initial global variable
+
+def add():
+    global result
+    result = result + 2 # increment by 2
+    print("Inside add():", result)
+
+add()
+print("In main:", result)
+```
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+When we run the above script, the output will be:
+<code>
+Inside add(): 2
+In main: 2
+ </code>
+ </p>
+</details>
+
 **Q** In a python function without a return statement, what type does the return value default to?
 
 <details>
