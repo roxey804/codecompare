@@ -178,6 +178,7 @@ print(number)
  </p>
 </details>
 
+### [Args and Kwargs](https://google.com)
 
 **Q** What are the kwargs (optional args) for the print() function?
 
@@ -194,7 +195,27 @@ print("a string", sep=, end=)
 </p>
 </details>
 
-**For Loops** 
+```python
+def myfunction(arg1, arg2=defaultvalue):
+    print("hi")
+myfunction(2,3)
+```
+**Q** What wil be the output of the below code snipped? #TODO
+
+```python
+def myfunction(arg1, arg2=99):
+    print(arg1,1rg2)
+myfunction(2,3)
+```
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
+</p>
+</details>
+
+### For Loops
 
 **Q** how many times will this sentence be printed? 
 ```python
@@ -242,29 +263,40 @@ print(total)
 </p>
 </details>
 
-### Functions from built-in modules e.g. random
+### Functions from built-in modules e.g. random, sys
 
 Remember all python functions have a **return value**, if no ```return``` statement, the return value defaults to a ```None``` type. 
 
-```python
-def myfunction(arg1, arg2=defaultvalue):
-    print("hi")
-myfunction(2,3)
-```
-**Q** What wil be the output of the below code snipped? #TODO
+#### Getting arguments from the command line ```import sys```
 
-```python
-def myfunction(arg1, arg2=99):
-    print(arg1,1rg2)
-myfunction(2,3)
-```
+**Q** What is ```sys.argv[0]``` in the following line? ```python myscript.py jenna 2```
+
 <details>
 <summary>
  <b>Answer</b>
+ 
 </summary>
-
+<code>myscript.py</code>
+<br>
+sys.argv[0] is the name of the script being run, with the following arguments being sys.argv[1] and [2] and so on
 </p>
 </details>
+
+**Q** What is the type of any arguments passed in to a python script by default? thourgh ```sys``` or ```input()```?
+
+<details>
+<summary>
+ <b>Answer</b>
+ 
+</summary>
+<code>string</code>
+<br>
+that's why for integers you <b>must specify</b> <code>input = int(....</code> or <code>int(sys.argv[1])</code>
+</p>
+</details>
+
+### [Another heading](https://google.com)
+
 
 Module | usage | example | notes
 |---|---|---|---|
