@@ -295,6 +295,15 @@ that's why for integers you <b>must specify</b> <code>input = int(....</code> or
 </p>
 </details>
 
+### [Python string methods](https://www.w3schools.com/python/python_ref_string.asp)
+
+ Methods | Description | Use| ?
+|---|---|---|---|
+|`strip()`|remove whitespace at **start** and **end** of a string|`myvar.strip()`|..|
+|`replace()`|specified value is replaced by another|`myvar.replace(" ","")`|..|
+|`join()`|..|..|..|
+
+
 ### [Another heading](https://google.com)
 
 
