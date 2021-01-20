@@ -303,15 +303,21 @@ that's why for integers you <b>must specify</b> <code>input = int(....</code> or
 |`replace()`|specified value is replaced by another|`myvar.replace(" ","")`|..|
 |`join()`|..|..|..|
 
+### [Python number/integer methods](https://medium.com/@bonfirealgorithm/beyond-the-for-loop-higher-order-functions-and-list-comprehensions-in-python-695b58ab71d3)
 
-### [Another heading](https://google.com)
+ Methods | Description | Example| Use
+|---|---|---|---|
+|`filter()`|takes a function and an iterable as arguments and constructs a new iterable by applying the function to every element in the list|filter even no.s|`even = filter(lambda x: x % 2 == 0, integers)`|
+|`map()`|applies a function to every element in a list. Unlike filter, it leaves the number of elements in the list unchanged|`myvar.replace(" ","")`|..|
+|`reduce()`|Reduce works by applying a function that takes two arguments to the elements in the list, from left to right|..|..|
 
+### [Python list comprehensions](https://google.com)
 
 Module | usage | example | notes
 |---|---|---|---|
 | random | `random.randint(var)` | `random.randint(1,10)` |generate random number between 1 and 10|
 | sys | `sys.exit()` | `sys.exit()` | This allows a script to terminate, anything below this code will **not** be ecxecuted
-| pyperclip | `pyperclip.paste()` | `pyperclip.copy(` | copy text from clipboard|
+| get even no.s | `even = [x for x in integers if x % 2 == 0]`| bla | 
 
 # JavaScript [(ES6)](https://www.w3schools.com/react/react_es6.asp)
 
