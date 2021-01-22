@@ -263,6 +263,8 @@ print(total)
 </p>
 </details>
 
+#### To append items to a list in a for loop, remember to instantiate your list _outside_ the for loop
+
 ### Functions from built-in modules e.g. random, sys
 
 Remember all python functions have a **return value**, if no ```return``` statement, the return value defaults to a ```None``` type. 
