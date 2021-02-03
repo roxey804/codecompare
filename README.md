@@ -297,9 +297,17 @@ that's why for integers you <b>must specify</b> <code>input = int(....</code> or
 </p>
 </details>
 
+### [Python dunder methods](https://note.nkmk.me/en/python-script-file-path/)
+
+ Method | Description | Use| ?
+|---|---|---|---|
+|`__main__`|...|`myvar.strip()`|..|
+|`__file__`|returns the path specified (usually the filepath) |`filepath = __file__`|..|
+|`__init__`|object inittialisation|`def __init__(self, `|..|
+
 ### [Python string methods](https://www.w3schools.com/python/python_ref_string.asp)
 
- Methods | Description | Use| ?
+ Method | Description | Use| ?
 |---|---|---|---|
 |`strip()`|remove whitespace at **start** and **end** of a string|`myvar.strip()`|..|
 |`replace()`|specified value is replaced by another|`myvar.replace(" ","")`|..|
@@ -307,7 +315,7 @@ that's why for integers you <b>must specify</b> <code>input = int(....</code> or
 
 ### [Python number/integer methods](https://medium.com/@bonfirealgorithm/beyond-the-for-loop-higher-order-functions-and-list-comprehensions-in-python-695b58ab71d3)
 
- Methods | Description | Example| Use
+ Method | Description | Example| Use
 |---|---|---|---|
 |`filter()`|takes a function and an iterable as arguments and constructs a new iterable by applying the function to every element in the list|filter even no.s|`even = filter(lambda x: x % 2 == 0, integers)`|
 |`map()`|applies a function to every element in a list. Unlike filter, it leaves the number of elements in the list unchanged|`myvar.replace(" ","")`|..|
