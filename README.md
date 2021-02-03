@@ -301,7 +301,7 @@ that's why for integers you <b>must specify</b> <code>input = int(....</code> or
 
  Method | Description | Use| ?
 |---|---|---|---|
-|`__main__`|...|`myvar.strip()`|..|
+|`__main__`|A module’s __name__ is set equal to '__main__' when read from standard input|`if __name__ == __main__:`|..|
 |`__file__`|returns the path specified (usually the filepath) |`filepath = __file__`|..|
 |`__init__`|object inittialisation|`def __init__(self, `|..|
 
