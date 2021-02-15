@@ -46,15 +46,18 @@
 
  Function | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
+| string | `str(var)` | `String(var)` | | - | 
+| int | `int(var)` | `parseInt(var)` | | - | 
 | length | `len(var)` | `var.length` | | - | 
-| user input | `input()` | - | `gets`| |input is always a str by default 
+| type | `type(var)` | `typeof(var)` | | - | 
+| user input | `input("")` | `window.prompt("")` | `gets`| |input is always a str by default 
 | Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
 
 
 ### Data structures
  Data type | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
-| String |```"string"```or ```'string'``` |  | ```"string"```or ```'string'```| - | 
+| String |`"string"` or `'string'` |  | `"string"`or `'string'`| - | 
 | Integer | 1|  | | - | 
 | Boolean | True |  | | - | 
 | Mutable List | `[1,2,3]` |  | | - | 
