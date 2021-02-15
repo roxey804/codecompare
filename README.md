@@ -39,14 +39,14 @@
 
  Operator | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
-| For | `for i in range(x)` | `-` |  bla | **For** loops iterate a **specific** no. of times
-| While | `while i < 3``while True` | `-` | bla | **While** loops iterate **while** a certain condn is true
+| For | `for i in range(x):` | `-` |  - | **For** loops iterate a **specific** no. of times
+| While | `while i < 3:``while True:` | `-` | - | **While** loops iterate **while** a certain condn is true
 
 ### Built-in functions e.g. length
 
  Function | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
-| length | `len(var)` | `var.length` | | bla | 
+| length | `len(var)` | `var.length` | | - | 
 | user input | `input()` | - | `gets`| |input is always a str by default 
 | Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
 
@@ -54,12 +54,12 @@
 ### Data structures
  Data type | Python | JS (ES6) | Ruby | Notes
 |---|---|---|---|---|
-| String | |  | | bla | 
-| Integer | |  | | bla | 
-| Boolean |  |  | | bla | 
-| Mutable List | `[1,2,3]` |  | | bla | 
-| Unmutable list | tuple `(1,2,3)`|  | | bla | 
-| Key:value | Dictionary `{"key":"value"}`|  | | bla | 
+| String |```"string"```or ```'string'``` |  | ```"string"```or ```'string'```| - | 
+| Integer | 1|  | | - | 
+| Boolean | True |  | | - | 
+| Mutable List | `[1,2,3]` |  | | - | 
+| Unmutable list | tuple `(1,2,3)`|  | | - | 
+| Key:value | Dictionary `{"key":"value"}`| Object | | - | 
 
 ## Web development framework comparison
 
@@ -72,7 +72,7 @@
 
  X | Python - Django | React JS | Ruby on Rails
 |---|---|---|---|
-|Package manager|pip|node, yarn|RubyGems => bundler|
+|Package manager|pip, pipenv, poetry|node, yarn|RubyGems => bundler|
 |Package config stored in:|`requirements.txt`|`package.json/yarn.lock`|`Gemfile.lock`|
 |Library installation|`pip install <lib>`|`npm/yarn install <package>`|`gem install <gem>`|
 |Library/package import|`import library`|`import library / { Component } from`|`require "package"`|
