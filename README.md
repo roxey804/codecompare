@@ -314,7 +314,7 @@ that's why for integers you <b>must specify</b> <code>input = int(....</code> or
 |---|---|---|---|
 |`strip()`|remove whitespace at **start** and **end** of a string|`myvar.strip()`|..|
 |`replace()`|specified value is replaced by another|`myvar.replace(" ","")`|..|
-|`join()`|..|..|..|
+|`join()`|useful for converting **iterables to strings**|`separator.join(iterable)`|..|
 
 ### [Python number/integer methods](https://medium.com/@bonfirealgorithm/beyond-the-for-loop-higher-order-functions-and-list-comprehensions-in-python-695b58ab71d3)
 
