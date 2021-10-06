@@ -203,11 +203,11 @@ def myfunction(arg1, arg2=defaultvalue):
     print("hi")
 myfunction(2,3)
 ```
-**Q** What wil be the output of the below code snipped? #TODO
+**Q** What wil be the output of the below code snippet? #TODO
 
 ```python
 def myfunction(arg1, arg2=99):
-    print(arg1,1rg2)
+    print(arg1,arg2)
 myfunction(2,3)
 ```
 <details>
