@@ -214,7 +214,10 @@ myfunction(2,3)
 <summary>
  <b>Answer</b>
 </summary>
-
+ 
+```
+2, 3  as those values will have overridden the default
+```
 </p>
 </details>
 
