@@ -5,8 +5,8 @@
 > Note: not every data type or function has a direct comparison in the other language, sometimes these are approximate. 
 
  Operation | Python | JS (ES6) | 
-|--|---|---|---|
-| print | `print("Hello world!")` | `console.log('Hello World!')` 
+|--|---|---|
+| print | `print("Hello world!")` | `console.log('Hello World!')` |
 | functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| x
 | calling functions | `my_function()` | 
 | conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| `if (condition) {`<br>&nbsp;&nbsp;&nbsp; `statement }` <br>`else {` <br>&nbsp;&nbsp;&nbsp;`statement }` | 
