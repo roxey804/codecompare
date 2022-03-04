@@ -55,14 +55,14 @@
 
 
 ### Data structures
- Data type | Python | JS (ES6) | Ruby | Notes
+ Data type | Python | JS (ES6) | Notes
 |---|---|---|---|---|
-| String |`"string"` or `'string'` |  | `"string"`or `'string'`| - | 
-| Integer | 1|  | | - | 
-| Boolean | True |  | | - | 
-| Mutable List | `[1,2,3]` |  | | - | 
-| Unmutable list | tuple `(1,2,3)`|  | | - | 
-| Key:value | Dictionary `{"key":"value"}`| Object | | - | 
+| String |`"string"` or `'string'` |  | - | 
+| Integer | 1|  | - | 
+| Boolean | True |  | - | 
+| Mutable List | `[1,2,3]` |  | - | 
+| Unmutable list | tuple `(1,2,3)`|  | - | 
+| Key:value | Dictionary `{"key":"value"}`| JS Object | - | 
 
 ## Web development framework comparison
 
