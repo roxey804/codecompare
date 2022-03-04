@@ -4,23 +4,23 @@
 
 > Note: not every data type or function has a direct comparison in the other language, sometimes these are approximate. 
 
- Operation | Python | JS (ES6) | Ruby
+ Operation | Python | JS (ES6) | 
 |--|---|---|---|
-| print | `print("Hello world!")` | `console.log('Hello World!')` | `print "Hello world!" / puts "Hello world!"`|
-| functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| `def myfunction()`<br>&nbsp;&nbsp;&nbsp;`print "running"`<br>`end` |
-| calling functions | `my_function()` | `myFunction()`| `myfunction()` |
-| conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| `if (condition) {`<br>&nbsp;&nbsp;&nbsp; `statement }` <br>`else {` <br>&nbsp;&nbsp;&nbsp;`statement }` | `if condition`<br>&nbsp;&nbsp;&nbsp;`return true`<br>`else`<br>&nbsp;&nbsp;&nbsp;`return false`<br>`end`|
-| inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? "if true" : "else"`|
-| [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)| [not yet](https://en.wikipedia.org/wiki/Safe_navigation_operator#Python)| `obj.value?.property`|`account&.username&.address`|| |
+| print | `print("Hello world!")` | `console.log('Hello World!')` 
+| functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| x
+| calling functions | `my_function()` | 
+| conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| `if (condition) {`<br>&nbsp;&nbsp;&nbsp; `statement }` <br>`else {` <br>&nbsp;&nbsp;&nbsp;`statement }` | 
+| inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`|
+| [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)| [not yet](https://en.wikipedia.org/wiki/Safe_navigation_operator#Python)| `obj.value?.property`| |
 
 ## In-depth comparison
 
 ### Conditionals
 
- Function | Python | JS (ES6) | Ruby | Notes
+ Function | Python | JS (ES6)  | Notes
 |--|--|--|--|---|
-| Conditionals | `if, elif, else` | `if, else if, else` | `if, elsif, else / unless, else` | - |
-| Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| `condition ? if_true : else`||
+| Conditionals | `if, elif, else` | `if, else if, else` | - |
+| Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| |
 | Switch/case | - | `switch` | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |-
 
 
