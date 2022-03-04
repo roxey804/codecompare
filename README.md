@@ -18,15 +18,15 @@
 ### Conditionals
 
  Function | Python | JS (ES6)  | Notes
-|--|--|--|--|
+|--|--|---|
 | Conditionals | `if, elif, else` | `if, else if, else` | - |
 | Ternary operators | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`| |
 | Switch/case | - | `switch` | `case expression`<br>`when condn`<br>&nbsp;&nbsp;&nbsp;`statement` |-
 
 
 ### Comparison (equal/not equal) and Boolean (and/or/not) operators
- Operator | Python | JS (ES6) | Ruby | Notes
-|---|---|---|---|---|
+ Operator | Python | JS (ES6) | Notes
+|---|---|---|----|
 | Boolean | `bool(var)` | `var.length` | | bla | 
 | Falsey | `0, 0.0, ''` |  |`false, nil` | bla | 
 | Equal to | `==` | `==/===` | `==`| Note `int` and `str` are **not** equal to each other e.g. `22!='22'`|
@@ -37,26 +37,26 @@
 
 ### Loops
 
- Operator | Python | JS (ES6) | Ruby | Notes
-|---|---|---|---|---|
-| For | `for i in range(x):` | `-` |  - | **For** loops iterate a **specific** no. of times
-| While | `while i < 3:``while True:` | `-` | - | **While** loops iterate **while** a certain condn is true
+ Operator | Python | JS (ES6)  | Notes
+|---|---|---|-----|
+| For | `for i in range(x):` | `-`  | **For** loops iterate a **specific** no. of times
+| While | `while i < 3:``while True:` | `-`  | **While** loops iterate **while** a certain condn is true
 
 ### Built-in functions e.g. length
 
- Function | Python | JS (ES6) | Ruby | Notes
-|---|---|---|---|---|
-| string | `str(var)` | `String(var)` | | - | 
-| int | `int(var)` | `parseInt(var)` | | - | 
-| length | `len(var)` | `var.length` | | - | 
-| type | `type(var)` | `typeof(var)` | | - | 
-| user input | `input("")` | `window.prompt("")` | `gets`| |input is always a str by default 
-| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` | `puts / print` |`puts` automatically adds a new line, otherwise use `print`|
+ Function | Python | JS (ES6)  | Notes
+|---|---|---|----|
+| string | `str(var)` |  | - | 
+| int | `int(var)` |  | - | 
+| length | `len(var)` | | - | 
+| type | `type(var)` | `typeof(var)` | - | 
+| user input | `input("")` | `window.prompt("")`  |input is always a str by default 
+| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` ||
 
 
 ### Data structures
  Data type | Python | JS (ES6) | Notes
-|---|---|---|---|---|
+|---|---|---|----|
 | String |`"string"` or `'string'` |  | - | 
 | Integer | 1|  | - | 
 | Boolean | True |  | - | 
