@@ -52,6 +52,8 @@
 | type | `type(var)` | `typeof(var)` | - | 
 | user input | `input("")` | `window.prompt("")`  |input is always a str by default 
 | Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` ||
+| Sleep (delay) | sleep(5) | setTimeout(myFunc, 2000) |where 2000 is ms|
+
 
 
 ### Data structures
