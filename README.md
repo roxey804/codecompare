@@ -35,12 +35,22 @@
 | Or | `or` | &#124;&#124;  |&#124;&#124;| |
 | Not | `not` | `!` |`! / unless?` |`unless` executes code if conditional is false.  |
 
+
+### Functions
+
+ Python | JS (ES6)  |  Notes
+|---|---|---|
+| `def myfunction(args)` | `function myFunction() { //code here }` | JS functions and vars are defined using **camelCase** | 
+| **JS Arrow func. syntax** => | `const myFunction = () => { // code here }` | `const myFunction = (args) => { // code here }` | 
+| **JS Arrow func syntax** allows for single-line function definition| If returning a **JS object** wrap it in **( )**| `=> ({JS object})`|
+
 ### Loops
 
  Operator | Python | JS (ES6)  | Notes
 |---|---|---|-----|
 | For | `for i in range(x):` | `-`  | **For** loops iterate a **specific** no. of times
 | While | `while i < 3:``while True:` | `-`  | **While** loops iterate **while** a certain condn is true
+
 
 ### Built-in functions e.g. length
 
@@ -51,9 +61,8 @@
 | length | `len(var)` | | - | 
 | type | `type(var)` | `typeof(var)` | - | 
 | user input | `input("")` | `window.prompt("")`  |input is always a str by default 
-| Advanced printing | f strings: `f"Hello, {var}"` | `Hello, {name}` ||
-| Sleep (delay) | sleep(5) | setTimeout(myFunc, 2000) |where 2000 is ms|
-
+| F and template strings | f strings: `f"Hello, {var}"` | ``Hello, ${name}`` |whitespace is honoured in both|
+| Sleep (delay) | sleep(5) | setTimeout(myFunc, 2000) |where 2000 is in ms|
 
 
 ### Data structures
@@ -70,7 +79,7 @@
 
  X | Python | JS (ES6) | Ruby
 |---|---|---|---|
-|Web development frameworks|Flask, Django|React, Vue, Angular |Sinatra, Ruby on Rails|
+|Web development frameworks|Flask, Django|React, Vue, Angular, NextJS |Sinatra, Ruby on Rails|
 |Unit testing|Pytest, Unitttest|React testing library, Jest |RSpec, minitest|
 |Syntax linting|pylint|ESLint|Rubocop|
 |Frontend tests|Selenium|Cypress|Capybara, Cucumber|
@@ -84,6 +93,25 @@
 
 
 # Language specific syntax
+
+## React Javascript
+
+JSX is **not** HTML but a combination of JS + XML
+
+### React component syntax
+
+`<Component prop={} />`
+
+	```
+<ParentComponent>
+ <ChildComponent>
+</ParentComponent>
+```
+
+ Python | JS (ES6)  |  Notes
+|---|---|---|
+| `def myfunction(args)` | `function myFunction() { //code here }` | JS functions and vars are defined using **camelCase** | 
+| **JS Arrow func. syntax** => | `const myFunction = () => { // code here }` | `const myFunction = (args) => { // code here }` | 
 
 ## Python
 
