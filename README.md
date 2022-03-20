@@ -8,7 +8,7 @@
 |--|---|---|
 | print | `print("Hello world!")` | `console.log('Hello World!')` |
 | functions | `def myfunction():`<br>&nbsp;&nbsp;&nbsp;`print("running")` | `function myFunction()`<br>&nbsp;&nbsp; `{ code here }`| x
-| calling functions | `my_function()` | 
+| calling functions | `my_function()` | `myFunction()`
 | conditionals | `if condition:`<br>&nbsp;&nbsp;&nbsp;`do sthing`<br>`else:`<br>&nbsp;&nbsp;&nbsp;`do sthing else`| `if (condition) {`<br>&nbsp;&nbsp;&nbsp; `statement }` <br>`else {` <br>&nbsp;&nbsp;&nbsp;`statement }` | 
 | inline conditional | `val_when_true if condition else val_when_false`| `{ condition? 'true':'false'}`|
 | [safe navigation operator](https://mitrev.net/ruby/2015/11/13/the-operator-in-ruby/)| [not yet](https://en.wikipedia.org/wiki/Safe_navigation_operator#Python)| `obj.value?.property`| |
@@ -91,6 +91,14 @@
 |Library installation|`pip install <lib>`|`npm/yarn install <package>`|`gem install <gem>`|
 |Library/package import|`import library`|`import library / { Component } from`|`require "package"`|
 
+## Frontend
+
+### Displaying variables
+ Framework | Syntax name | Example | Notes
+|---|---|-----|---|
+| Django |[Jinja2](https://jinja.palletsprojects.com/en/3.0.x/) | `<p>{{ person.name }}</p>` | - | 
+| ReactJS | JSX/ JS expression| `<p>{personName}</p>` | JSX is not readable by the browser, hence uses [Babel](https://babeljs.io/) | 
+
 
 # Language specific syntax
 
@@ -102,16 +110,20 @@ JSX is **not** HTML but a combination of JS + XML
 
 `<Component prop={} />`
 
-	```
+```
 <ParentComponent>
  <ChildComponent>
 </ParentComponent>
 ```
 
- Python | JS (ES6)  |  Notes
-|---|---|---|
-| `def myfunction(args)` | `function myFunction() { //code here }` | JS functions and vars are defined using **camelCase** | 
-| **JS Arrow func. syntax** => | `const myFunction = () => { // code here }` | `const myFunction = (args) => { // code here }` | 
+### Object destructuring in React component props
+
+ Version | React component | props usage | Notes
+|---|---|---|---|
+|v1 using props|` export default function Menu(props) {..`|`<p>{props.title}</p>`||
+|v2 destructured|`export default function Menu({title, recipe}) {.. `|`<p>{title}</p>`| |
+
+
 
 ## Python
 
