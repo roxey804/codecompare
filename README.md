@@ -80,7 +80,7 @@
  X | Python | JS (ES6) | Ruby
 |---|---|---|---|
 |Web development frameworks|Flask, Django|React, Vue, Angular, NextJS |Sinatra, Ruby on Rails|
-|Unit testing|Pytest, Unitttest|React testing library, Jest |RSpec, minitest|
+|Unit testing|Pytest, Unitttest|Jest (test runner) + React testing library/Cypress ]|RSpec, minitest|
 |Syntax linting|pylint|ESLint|Rubocop|
 |Frontend tests|Selenium|Cypress|Capybara, Cucumber|
 
