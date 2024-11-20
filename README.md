@@ -311,6 +311,28 @@ print(total)
 </p>
 </details>
 
+
+**Q** What will be the output of this while loop?
+
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+
+```python
+n = 5
+while n > 0:
+    n -= 1
+    if n == 2:
+        break
+    print(n)
+print('Loop ended.')
+```
+</p>
+</details>
+
+
+
 #### To append items to a list in a for loop, remember to instantiate your list _outside_ the for loop
 
 ### Functions from built-in modules e.g. random, sys
