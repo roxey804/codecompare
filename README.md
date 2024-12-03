@@ -331,7 +331,31 @@ print('Loop ended.')
 </p>
 </details>
 
+**Q** What will be the output of this script?
 
+```python
+def main():
+ counter = 0
+ print(greet("Alice", counter))
+print(f"Counter is {counter}")
+print(greet("Bob", counter))
+print(f"Counter is {counter}")
+
+def greet(name, counter):
+counter += 1
+return f"Hi, {name}!"
+
+```
+<details>
+<summary>
+ <b>Answer</b>
+</summary>
+ ```Hi, Alice!
+Counter is 0
+Hi, Bob!
+Counter is 0 ```
+</p>
+</details>
 
 #### To append items to a list in a for loop, remember to instantiate your list _outside_ the for loop
 
