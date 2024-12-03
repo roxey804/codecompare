@@ -350,10 +350,12 @@ return f"Hi, {name}!"
 <summary>
  <b>Answer</b>
 </summary>
- ```Hi, Alice!
+`Hi, Alice!
 Counter is 0
 Hi, Bob!
-Counter is 0 ```
+Counter is 0`
+To update the counter,  you can change the return statement in `greet()` to return both a greeting and a counter:
+`return f"Hi, {name}!", counter + 1`
 </p>
 </details>
 
