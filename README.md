@@ -335,17 +335,17 @@ print('Loop ended.')
 
 ```python
 def main():
- counter = 0
- print(greet("Alice", counter))
-print(f"Counter is {counter}")
-print(greet("Bob", counter))
-print(f"Counter is {counter}")
+    counter = 0
+    print(greet("Alice", counter))
+    print(f"Counter is {counter}")
+    print(greet("Bob", counter))
+    print(f"Counter is {counter}")
 
 def greet(name, counter):
-counter += 1
-return f"Hi, {name}!"
-
+    counter += 1
+    return f"Hi, {name}!"
 ```
+
 <details>
 <summary>
  <b>Answer</b>
@@ -355,10 +355,11 @@ return f"Hi, {name}!"
 Counter is 0
 Hi, Bob!
 Counter is 0
- ```
-To update the counter,  you can change the return statement in greet() to return both a greeting and a counter:
 ```
- return f"Hi, {name}!", counter + 1
+ 
+ To clean up your output and get the desired results, you’ll have to reassign your counter variable with each call to greet():
+```
+ greeting, counter = greet("Alice", counter)
  ```
 </p>
 </details>
